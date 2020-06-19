@@ -3,8 +3,8 @@ import pyodbc
 import os
 import azure.functions as func
 
-from __app__.shared.database.database_credentials import DatabaseCredentials
-from __app__.shared.database.database_credentials_reader import DatabaseCredentialsReader
+from __app__.shared.database.database_credentials import DatabaseCredentials                   # pylint: disable=import-error
+from __app__.shared.database.database_credentials_reader import DatabaseCredentialsReader      # pylint: disable=import-error
 
 def main(req: func.HttpRequest) -> func.HttpResponse:    
     logging.info(str(req.headers))
