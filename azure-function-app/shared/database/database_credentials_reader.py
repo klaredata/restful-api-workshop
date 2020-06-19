@@ -13,7 +13,7 @@ class DatabaseCredentialsReader :
     def __init__(self):
         pass
 
-    def discover_credentials(self, possible_file_location = None) :
+    def discover_credentials(self, possible_file_location:str = None) -> DatabaseCredentials :
         """ Discovers the credentials of the SQL server to reach. 
 
         If possible_file_location is filled, the method will try extract the
