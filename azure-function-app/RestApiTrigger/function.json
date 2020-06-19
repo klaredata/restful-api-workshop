@@ -9,7 +9,8 @@
       "methods": [
         "get",
         "post"
-      ]
+      ],
+      "route": "consultants/{consultantId}"
     },
     {
       "type": "http",
