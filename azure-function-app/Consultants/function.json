@@ -8,9 +8,11 @@
       "name": "req",
       "methods": [
         "get",
-        "post"
+        "post",
+        "put", 
+        "delete"
       ],
-      "route": "consultants/{consultantId}"
+      "route": "consultants/"
     },
     {
       "type": "http",
